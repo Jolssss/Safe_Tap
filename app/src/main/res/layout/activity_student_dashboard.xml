@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/light_blue">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000" />
+
+    <!-- Clinic Button -->
+    <Button
+        android:id="@+id/btnClinic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="CLINIC"
+        android:backgroundTint="@color/red"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Security Button -->
+    <Button
+        android:id="@+id/btnSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="SECURITY"
+        android:backgroundTint="@color/blue"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Guidance Button -->
+    <Button
+        android:id="@+id/btnGuidance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="GUIDANCE"
+        android:backgroundTint="@color/green"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Service Button -->
+    <Button
+        android:id="@+id/btnService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SERVICE"
+        android:backgroundTint="@color/orange"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
